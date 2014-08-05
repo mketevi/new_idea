@@ -41,7 +41,7 @@ if( isset($_GET['p']) && !empty($_GET['p']) ) {
 <html lang="fr">
 <head>
 	<meta charset="UTF-8" />
-	<title>Explorateur de fichiers PHP</title>
+	<title>Les reliques laissés par vos anciens</title>
 	<meta name="keywords" content="" />
 	<meta name="description" content="" />	
 	<meta name="robots" content="noindex,nofollow" />

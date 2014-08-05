@@ -12,11 +12,13 @@ border: 0;
 width: 100%;
 height: 100%;
 }
-.global-container {
+.momoglobal-container {
 	background-color: aquamarine;
 	width: 65%;
 	height: 100%;
   margin: auto;
+  margin-bottom: 0;
+  padding: 0;
 }
 #rectangle{
   background: #e5592e;
@@ -64,10 +66,10 @@ height: 100%;
 .image-slider-container{
   background: none repeat scroll 0% 0% #E5592E;
   width: 100%;
-  margin: auto;
-  height: 500px;
+  margin: -110px auto auto;
+  height: 400px;
   padding-top: 1%;
-  margin-top: -110px;
+  margin-top: 0;
 }
 #navigation{
   float: right;

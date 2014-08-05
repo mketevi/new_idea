@@ -40,7 +40,7 @@ define('SALT', 'hg153Fi_0BPqefq545wjoe%');
  EXPLORATEUR PHP                       
 ****************************************************/
 /** repertoire racine destine a etre parcouru, par defaut : ./documents/   **/
-define('BASE', 'documents');
+define('BASE', 'H:\Telecom-bretagne');
 
 
 /**  extensions identifiees et associees a une icone placee dans 'images/48/' ou 'images/96/'   **/
@@ -64,7 +64,8 @@ $t_extensions_reconnues = array(
 	'txt',
 	'wmv',
 	'xls',
-	'zip'
+	'zip',
+	'docx',
 	);
 
 /** correspondance des extensions en francais **/
@@ -88,7 +89,9 @@ $t_extensions = array(
 	'txt'=>'Document texte',
 	'wmv'=>'Fichier WMV',
 	'xls'=>'Microsoft Excel',
-	'zip'=>'Archive WinZip'
+	'zip'=>'Archive WinZip',
+	'docx'=>'Document word récent'
+
 );
 
 /**  repertoires a ne pas montrer a l'internaute en sus des repertoires caches commencant par un . => ., .., .htaccess, etc... **/
