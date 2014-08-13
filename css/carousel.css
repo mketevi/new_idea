@@ -1,0 +1,48 @@
+
+#carousel{
+  position: relative;
+  background: none repeat scroll 0% 0% #E5592E;
+  width: 100%;
+  margin: -110px auto auto;
+  height: 820px;
+  padding-top: 0%;
+  margin-top: 0;
+  box-shadow: 1px 15px 20px rgba(0,0,0,0.55);
+}
+#carousel img{
+	max-width:100%; 
+	max-height: 100%;
+}
+.slide{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+.title{
+	position: absolute;
+	height: 35px;
+	bottom: 7px;
+	left: 0;
+	width: 100%;
+	line-height: 35px;
+	font-size: 15px;
+	background-color: rgba(169, 169, 169, 0.5);
+}
+.navigation{
+	position: absolute;
+	bottom: 34px;
+	right: 10px;
+}
+.navigation span{
+	background: #000;
+	color: #fff;
+	padding: 2px 4px;
+	cursor: pointer;
+}
+.navigation span:hover{
+	background: #fff;
+	color: #000;
+	padding: 2px 4px;
+	cur
+}

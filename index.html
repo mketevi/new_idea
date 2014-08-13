@@ -6,32 +6,67 @@
         <title>Rejoignez le club Afrique de Telecom Bretagne</title>
         <link rel="stylesheet" type="text/css" href="./css/style.css">
         <link rel="stylesheet" type="text/css" href="./css/camera.css">
+        <link rel="stylesheet" type="text/css" href="./css/carousel.css">
         <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
         <script type='text/javascript' src='./js/jquery.min.js'></script>
+        <script type='text/javascript' src='./js/carousel.js'></script>
     </head>
 
     <body >
       <header class="header">
         <div class="header_content">
-          <div class ="header_logo"> logo</div>
+          <div class ="header_logo">Africa</div><div class ="header_logo" id="logo2">TB</div>
               <nav class="menu">
-                <a href="#">Gallerie</a>
-                <a href="#">Anciens</a>
-                <a href="#">Reliques</a>
-                <a href="#">Contact</a>
+                <div class="menu_logo"><a href="#">Gallerie</a></div>
+                <div class="menu_logo"><a href="#">Anciens</a></div>
+                <div class="menu_logo"><a href="./explorateur_relique">Reliques</a></div>
+                <div class="menu_logo"><a href="#">Contacts</a></div>
               </nav>
         </div>
       </header>
 
         <div class="momoglobal-container">
-            <div class="image-slider-container">
-              <div class="camera_wrap camera_blue_skin" class="camera_rectif" id="camera_wrap">
-                  <div data-thumb="../images/slides/thumbs/bridge.jpg" data-src="./img/photos/1.JPG">
-                      <div class="camera_caption fadeFromBottom">
-                          Camera is a responsive/adaptive slideshow. <em>Try to resize the browser window</em>
+            <div id="carousel">
+              <div id="slide1" class="slide">
+                <div id="visu">
+                  <img src="./img/photos/1.jpg"/>
+                </div>
+                <div class="title">
+                    Description du slide
+                </div>
+              </div>
+                 <div id="slide2" class="slide">
+                      <div id="visu">
+                        <img src="./img/photos/2.jpg"/>
                       </div>
+                      <div class="title">
+                          Description du slide2
                   </div>
               </div>
+                 <div id="slide3" class="slide">
+                    <div id="visu">
+                      <img src="./img/photos/3.jpg"/>
+                    </div>
+                    <div class="title">
+                    Description du slide3
+                  </div>
+              </div>
+               <div id="slide4" class="slide">
+                  <div id="visu">
+                    <img src="./img/photos/4.jpg"/>
+                  </div>
+                  <div class="title">
+                  Description du slide4
+                </div>
+              </div>
+              <!--
+              <div class="navigation">
+                <span>1</span>
+                <span>2</span>
+                <span>3</span>
+                <span>4</span>
+              </div>
+            -->
             </div>
         </div>
     </body>

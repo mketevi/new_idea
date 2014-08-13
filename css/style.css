@@ -10,7 +10,7 @@ line-height: 1.4;
 }
 .header{
   position: relative;
-  width: 65%;
+  width: 100%;
   height: 66px;
   margin:auto;
   background-color:#01579b;
@@ -20,8 +20,10 @@ line-height: 1.4;
   z-index: 500; 
 }
 .header .header_content{
-  width: 100%;
+  position: relative;
+  width: 65%;
   height:100%;
+  margin: 0 auto;
   padding-top: 17px;
 }
 a{
@@ -38,11 +40,13 @@ a{
 }
 .menu a:hover{
   color: #c6ff00;
-  border-bottom: 2px solid #c00;
+  animation: moveFromBottom 300ms ease;
 }
 .header_logo{
   font-weight: bold;
-  padding: 0 25px;
+  font-size: 35px;
+  /*padding: 0 25px;*/
+  line-height: auto;
   float: left;
 }
 .momoglobal-container {
@@ -53,15 +57,18 @@ a{
   margin-bottom: 0;
   padding: 0;
 }
-
-.image-slider-container{
-  background: none repeat scroll 0% 0% #E5592E;
-  width: 100%;
-  margin: -110px auto auto;
-  height: 400px;
-  padding-top: 0%;
-  margin-top: 0;
+#logo2{
+  padding-left: -10px;
+  color: #ffe082;
 }
+.menu_logo{
+  position: relative;
+  display: inline;
+  padding: 10px;
+  padding-bottom: 10px;
+  border-bottom: 5px solid #ffe082;
+}
+
 /*
 .logo{
   display: inline-table;

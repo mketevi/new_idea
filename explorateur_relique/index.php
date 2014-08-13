@@ -41,12 +41,9 @@ if( isset($_GET['p']) && !empty($_GET['p']) ) {
 <html lang="fr">
 <head>
 	<meta charset="UTF-8" />
-	<title>Les reliques laissés par vos anciens</title>
-	<meta name="keywords" content="" />
-	<meta name="description" content="" />	
-	<meta name="robots" content="noindex,nofollow" />
-	
+	<title>Les reliques laissés par vos anciens</title>	
 	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
 	<link rel="stylesheet" href="themes/original/css/normalize.css" />
 	<link rel="stylesheet" href="themes/original/css/screen.css" />
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
@@ -106,13 +103,18 @@ if( isset($_GET['p']) && !empty($_GET['p']) ) {
  
 <body>
 
-	<header id="entete">
-		<div class="contenu">
-			<div id="logo">
-				<img alt="logo" src="themes/original/images/logo.png" />
-			</div><!-- fin logo -->
-			<?php if(AUTHENTIFICATION === 'on') { ?>
-				<div id="logout">
+	<header id="header">
+        <div class="header_content">
+          <div class ="header_logo">Africa</div><div class ="header_logo" id="logo2">TB</div>
+              <nav class="menu">
+                <div class="menu_logo"><a href="#">Gallerie</a></div>
+                <div class="menu_logo"><a href="#">Anciens</a></div>
+                <div class="menu_logo"><a href="./explorateur_relique">Reliques</a></div>
+                <div class="menu_logo"><a href="#">Contacts</a></div>
+              </nav>
+        </div>
+			<!--<?php if(AUTHENTIFICATION === 'on') { ?>
+				<div class="menu_logo">
 					<span style="color:#AAA;"><?php echo $_SESSION['auth'] ?></span>
 					<a title="Se d&eacute;connecter" href="deconnexion.php" onclick="return confirm('Etes-vous sur de vous d\351connecter ?')"><img alt="se deconnecter" src="themes/original/images/logout.png" /></a>
 				</div><!--fin logout -->
