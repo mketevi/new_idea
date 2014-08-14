@@ -47,6 +47,7 @@ if( isset($_GET['p']) && !empty($_GET['p']) ) {
 	<meta name="robots" content="noindex,nofollow" />
 	
 	<!-- CSS -->
+	<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="themes/original/css/normalize.css" />
 	<link rel="stylesheet" href="themes/original/css/screen.css" />
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
@@ -106,11 +107,16 @@ if( isset($_GET['p']) && !empty($_GET['p']) ) {
  
 <body>
 
-	<header id="entete">
-		<div class="contenu">
-			<div id="logo">
-				<img alt="logo" src="themes/original/images/logo.png" />
-			</div><!-- fin logo -->
+	<header class="header">
+        <div class="header_content">
+          <div class ="header_logo">Africa</div><div class ="header_logo" id="logo2">TB</div>
+              <nav class="menu">
+                <div class="menu_logo"><a href="#">Gallerie</a></div>
+                <div class="menu_logo"><a href="#">Anciens</a></div>
+                <div class="menu_logo"><a href="./explorateur_relique">Reliques</a></div>
+                <div class="menu_logo"><a href="#">Contacts</a></div>
+              </nav>
+        </div><!-- fin logo 
 			<?php if(AUTHENTIFICATION == 'on') { ?>
 			<div id="logout">
 				<span style="color:#AAA;"><?php echo $_SESSION['auth'] ?></span>
@@ -244,13 +250,7 @@ if( isset($_GET['p']) && !empty($_GET['p']) ) {
 	</div><!-- fin corps -->
 	
 	<footer id="pieddepage">
-		<div class="contenu">
-			<ul>
-				<li><img src="http://i.creativecommons.org/l/by-nc/3.0/fr/88x31.png" alt="Licence Creative Commons" /><a href="#">g&eacute;raud lacheny 2014</a></li>
-				<li><a href="mailto: contact@geraudlacheny.fr">contact&nbsp;&raquo;</a></li>
-				<li><a onclick="window.open(this.href); return false;" href="humans.txt">humans.txt&nbsp;&raquo;</a></li>
-			</ul>			
-		</div><!-- fin contenu -->
+		<!-- fin contenu -->
 	</footer>
 
 </body>

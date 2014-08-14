@@ -43,9 +43,9 @@ if( isset($_GET['p']) && !empty($_GET['p']) ) {
 	<meta charset="UTF-8" />
 	<title>Les reliques laissés par vos anciens</title>	
 	<!-- CSS -->
-	<link rel="stylesheet" type="text/css" href="../css/style.css">
 	<link rel="stylesheet" href="themes/original/css/normalize.css" />
 	<link rel="stylesheet" href="themes/original/css/screen.css" />
+    <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 	
 	<!-- JQUERY -->
@@ -103,7 +103,7 @@ if( isset($_GET['p']) && !empty($_GET['p']) ) {
  
 <body>
 
-	<header id="header">
+	<header class="header">
         <div class="header_content">
           <div class ="header_logo">Africa</div><div class ="header_logo" id="logo2">TB</div>
               <nav class="menu">
@@ -249,13 +249,7 @@ if( isset($_GET['p']) && !empty($_GET['p']) ) {
 	</div><!-- fin corps -->
 	
 	<footer id="pieddepage">
-		<div class="contenu">
-			<ul>
-				<li><img src="http://i.creativecommons.org/l/by-nc/3.0/fr/88x31.png" alt="Licence Creative Commons" /><a href="#">g&eacute;raud lacheny 2014</a></li>
-				<li><a href="mailto: contact@geraudlacheny.fr">contact&nbsp;&raquo;</a></li>
-				<li><a onclick="window.open(this.href); return false;" href="humans.txt">humans.txt&nbsp;&raquo;</a></li>
-			</ul>			
-		</div><!-- fin contenu -->
+		<!-- fin contenu -->
 	</footer>
 
 </body>
