@@ -1,3 +1,8 @@
+<?php
+define("INCLUDE_CHECK", true);
+require "../config/connexion.php";
+require "../config/fonction.php";
+?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -5,7 +10,6 @@
         <meta charset="utf-8" />
         <title>Rejoignez le club Afrique de Telecom Bretagne</title>
         <link rel="stylesheet" type="text/css" href="./css/style.css">
-        <link rel="stylesheet" type="text/css" href="./css/camera.css">
         <link rel="stylesheet" type="text/css" href="./css/carousel.css">
         <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
         <script type='text/javascript' src='./js/jquery.min.js'></script>
@@ -16,6 +20,7 @@
       <header class="header">
         <div class="header_content">
           <div class ="header_logo">Africa</div><div class ="header_logo" id="logo2">TB</div>
+          <div class="header_icon"></div>
               <nav class="menu">
                 <div class="menu_logo"><a href="#">Gallerie</a></div>
                 <div class="menu_logo"><a href="#">Anciens</a></div>
